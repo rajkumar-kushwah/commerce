@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { ShopContext } from '../context/Shopcontext'
+import { ShopContext } from "../context/ShopContext";
 import remove_icon from '../images/remove_icon.png'
 
 function CardItem() {

@@ -3,7 +3,7 @@ import product from '../payge/product'
 import './ProductDisplay.css'
 import star from '../images/star.png'
 import star_dull from '../images/star_dull.png'
-import { ShopContext } from '../context/Shopcontext'
+import { ShopContext } from "../context/ShopContext";
 function ProductDisplay(props) {
     const {product} = props;
     const {addTocard} =useContext(ShopContext)
