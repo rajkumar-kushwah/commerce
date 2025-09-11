@@ -1,6 +1,6 @@
 import './usercard.css';
 import { Link } from 'react-router-dom';
-import product from '../payge/product';
+
 function Usercard({ id, name, image, newprice, oldprice, category,subcategory,description }) {
   return (
     <div key={id} className="usercard  flex-wrap w-80 px-4 items-center justify-center rounded-lg shadow-lg bg-gradient-to-r hover:via-purple-200 from-pink-100 to-indigo-300">

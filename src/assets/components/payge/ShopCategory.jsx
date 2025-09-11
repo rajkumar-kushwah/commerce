@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ShopContext } from "../context/ShopContext";
+import { ShopContext } from "../Context/ShopContext";
 import "../CSS/shopcategory.css";
 import arrow_down from '../images/arrow-down.png'
 import { Link } from "react-router-dom";

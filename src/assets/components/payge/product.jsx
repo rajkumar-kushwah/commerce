@@ -1,11 +1,11 @@
 import React, { useContext, useState } from 'react'
-import { ShopContext } from "../context/ShopContext";
+import { ShopContext } from "../Context/ShopContext";
 import {useParams} from 'react-router-dom'
 import BredCrum from '../BredCrums/BredCrum';
 import ProductDisplay from '../products/ProductDisplay';
 import Description from '../descriptions/Dscription';
 import Reletedproduct from '../ReletedProducts/Reletedproduct';
-function product() {
+function Product() {
   const {all_product} =useContext(ShopContext);
   const {productId} = useParams();
   const product= all_product.find((e)=> e.id === productId )
@@ -20,4 +20,4 @@ function product() {
   )
 }
 
-export default product
+export default Product
