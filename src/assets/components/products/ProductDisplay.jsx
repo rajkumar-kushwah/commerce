@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import './ProductDisplay.css'
 import star from '../images/star.png'
 import star_dull from '../images/star_dull.png'
-import { ShopContext } from "../Context/ShopContext";
+import { ShopContext } from "../context/ShopContext";
 function ProductDisplay(props) {
     const {product} = props;
     const {addTocard} =useContext(ShopContext)

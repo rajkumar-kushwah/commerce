@@ -9,7 +9,8 @@ import Footer from '../footers/footer.jsx';
 import men_banner from '../images/men_banner.jpg'
 import woman_banner from '../images/woman_banner.avif'
 import kid_banner from '../images/kid_banner.jpg'
-import Product from './product.jsx';
+import Product from "./product.jsx";
+
 function Navigator() {
   
   return (
