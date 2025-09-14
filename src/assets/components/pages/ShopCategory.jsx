@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ShopContext } from "../context/ShopContext";
-import "../CSS/shopcategory.css";
+import "../css/shopcategory.css";
 import arrow_down from '../images/arrow-down.png'
 import { Link } from "react-router-dom";
 const ShopCategory = (props) => {
