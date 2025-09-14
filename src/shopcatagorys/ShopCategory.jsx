@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ShopContext } from "../assets/components/context/ShopContext";
 import './ShopCategory.css'
-import arrow_down from '../images/arrow-down.png'
+import arrow_down from "../assets/components/images/arrow_down.png"
 import { Link } from "react-router-dom";
 const ShopCategory = (props) => {
   const { all_product } = useContext(ShopContext);
