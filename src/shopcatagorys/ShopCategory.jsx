@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ShopContext } from "../assets/components/context/ShopContext";
 import './ShopCategory.css'
-import arrow_down from "../assets/components/images/arrow_down.png"
+// import arrow_down from "../assets/components/images/arrow_down.png"
 import { Link } from "react-router-dom";
 const ShopCategory = (props) => {
   const { all_product } = useContext(ShopContext);
@@ -13,9 +13,9 @@ const ShopCategory = (props) => {
         <p className=" sm:w-auto">
           <span> Showing 1-12</span> out of 36 products
         </p>
-        <div className="shopcategory-sort border-1 rounded-2xl w-25  p-1  flex gap-2 ">
+        {/* <div className="shopcategory-sort border-1 rounded-2xl w-25  p-1  flex gap-2 ">
           sort by <img src={arrow_down} alt="" width={22}/>
-        </div>
+        </div> */}
       </div>
       <div className="shopcategory-product grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5 p-5 w-full max-w-screen-lg ">
         {all_product
