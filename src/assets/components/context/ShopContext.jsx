@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 import { all_product } from "../Heros/All_product";
 import CardItem from "../carditems/CardItem";
-import product from "../payge/Product"
+import Product from "../page/product";
 
 export const ShopContext = createContext(null);
 const getDefaultCard=()=>{

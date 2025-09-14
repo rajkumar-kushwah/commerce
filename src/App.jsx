@@ -1,5 +1,5 @@
 import React from 'react'
-import Navigator from './assets/components/payge/Navigator'
+import Navigator from './assets/components/page/Navigator'
 function App() {
   return (
 <div className='navbar pt-23'>

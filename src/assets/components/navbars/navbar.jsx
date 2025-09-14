@@ -4,7 +4,7 @@ import trorly from '../images/trorly.png'
 import Ecommers from "../images/Ecommers.webp";
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import { ShopContext } from '../context/Shopcontext';
+import { ShopContext } from '../Context/ShopContext';
 
 
 

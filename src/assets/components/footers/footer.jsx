@@ -1,6 +1,6 @@
 import React from "react";
-import Ecommers from '../images/Ecommers.webp'
-import './footer.css'
+import Ecommers from "../images/Ecommers.webp";
+import "./footer.css";
 
 function Footer() {
   return (
@@ -27,9 +27,8 @@ function Footer() {
         </div>
         <div className="footer-copyright">
           <hr />
-            <p>copyright @ 2025 - All Right  Resevered</p>
+          <p>copyright @ 2025 - All Right Resevered</p>
         </div>
-        
       </div>
     </div>
   );
