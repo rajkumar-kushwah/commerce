@@ -3,7 +3,7 @@ import { useState } from "react";
 import trorly from '../images/trorly.png'
 import Ecommers from "../images/Ecommers.webp";
 import { Link } from 'react-router-dom';
-import './Navbar.css';
+import './navbar.css';
 import { ShopContext } from '../context/ShopContext';
 
 
