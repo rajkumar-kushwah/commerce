@@ -1,8 +1,8 @@
 
-import Navbar from '../navbars/navbar';
+import Navbar from '../navbars/navbar.jsx';
 import {BrowserRouter ,Link, Routes,Route} from "react-router-dom"
-import Shop from "./Shop";
-import LoginSinup from "./LoginSinup";
+import Shop from "./Shop.jsx";
+import LoginSinup from "./LoginSinup.jsx";
 import ShopCategory from './ShopCategory.jsx';
 import Cart from './Card.jsx';
 import Footer from '../footers/footer.jsx';

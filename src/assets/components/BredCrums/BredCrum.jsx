@@ -1,5 +1,5 @@
 import React from 'react'
-import product from '../page/product'
+import product from '../pages/product'
 import right_arrow from '../images/right-arrow.png'
 
 function BredCrum(props) {
