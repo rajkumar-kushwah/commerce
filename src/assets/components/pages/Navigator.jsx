@@ -3,7 +3,7 @@ import Navbar from '../navbars/navbar.jsx';
 import {BrowserRouter ,Link, Routes,Route} from "react-router-dom"
 import Shop from "./Shop.jsx";
 import LoginSinup from "./LoginSinup.jsx";
-import ShopCategory from './ShopCategory.jsx';
+import ShopCategory from '../../../shopcatagorys/ShopCategory.jsx';
 import Cart from './Card.jsx';
 import Footer from '../footers/footer.jsx';
 import men_banner from '../images/men_banner.jpg'
